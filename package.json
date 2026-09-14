@@ -1,0 +1,15 @@
+{
+    "name": "sillybunny-alternatedescriptions",
+    "version": "1.2.1",
+    "private": true,
+    "type": "module",
+    "license": "AGPL-3.0-only",
+    "scripts": {
+        "check": "node --check index.js && node --check persistence.js",
+        "test": "node --test tests/compatibility.test.mjs tests/host-integration.test.mjs",
+        "test:full-host": "node --test tests/full-host.test.mjs"
+    },
+    "devDependencies": {
+        "playwright": "1.62.1"
+    }
+}

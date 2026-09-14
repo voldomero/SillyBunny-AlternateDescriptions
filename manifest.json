@@ -1,0 +1,12 @@
+{
+    "display_name": "SillyBunny-AlternateDescriptions",
+    "loading_order": 10,
+    "requires": [],
+    "optional": [],
+    "js": "index.js",
+    "css": "style.css",
+    "author": "Nbrown725, voldomero",
+    "version": "1.2.1",
+    "homePage": "https://github.com/voldomero/SillyBunny-AlternateDescriptions",
+    "auto_update": true
+}

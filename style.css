@@ -1,0 +1,143 @@
+.alt_fields_button {
+    margin-top: 5px;
+    max-width: 100%;
+    white-space: normal;
+    font: inherit;
+}
+
+.alt-fields-manager {
+    box-sizing: border-box;
+    min-width: 0;
+    width: 100%;
+    max-width: 100%;
+    padding: var(--sb-space-md, 12px);
+    margin-block: 8px 16px;
+    border: 1px solid var(--SmartThemeBorderColor, currentColor);
+    border-radius: var(--sb-radius-sm, 10px);
+    text-align: start;
+    color: var(--SmartThemeBodyColor);
+}
+
+.alt-manager-header,
+.alt-manager-controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    min-width: 0;
+}
+
+.alt-manager-header h3 {
+    flex: 1 1 220px;
+    min-width: 0;
+}
+
+.alt-fields-manager :is(button, input, textarea) {
+    box-sizing: border-box;
+    max-width: 100%;
+    font: inherit;
+}
+
+.alt-fields-manager button {
+    width: fit-content;
+    white-space: normal;
+    overflow-wrap: anywhere;
+}
+
+.alt-fields-manager h3,
+.alt_fields_button span,
+.alt-fields-manager .alt-field-status {
+    overflow-wrap: anywhere;
+}
+
+.alt-fields-manager .field-item {
+    min-width: 0;
+    margin-bottom: 16px;
+}
+
+.alt-fields-manager .alt-field-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.alt-fields-manager .alt-field-title-row {
+    flex: 1 1 180px;
+    min-width: 0;
+    align-items: center;
+}
+
+.alt-fields-manager .field-title {
+    flex: 1;
+    min-width: 0;
+    width: 100%;
+}
+
+.alt-fields-manager .field-textarea {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    resize: vertical;
+}
+
+.alt-fields-manager .alt-field-actions {
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.alt-fields-manager .alt-field-status {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    margin: 8px 0;
+    padding: 12px;
+    border: 1px solid var(--SmartThemeBorderColor, currentColor);
+    border-radius: var(--sb-radius-sm, 10px);
+    background: var(--SmartThemeBlurTintColor);
+}
+
+.alt-fields-manager .alt-field-status[hidden] {
+    display: none;
+}
+
+.alt-fields-manager .alt-retry-save[hidden] {
+    display: none;
+}
+
+.alt-save-feedback {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    overflow-wrap: anywhere;
+}
+
+.alt-fields-manager .active-field .field-textarea {
+    border-color: var(--sb-focus-ring, var(--SmartThemeQuoteColor, currentColor));
+}
+
+.alt-fields-manager .active-indicator {
+    color: var(--sb-focus-ring, var(--SmartThemeBodyColor));
+}
+
+.alt-fields-manager .menu_button,
+.alt_fields_button {
+    min-height: 38px;
+    cursor: pointer;
+}
+
+.alt-fields-manager :is(button, input, textarea, h3):focus-visible,
+.alt_fields_button:focus-visible {
+    outline: 2px solid var(--sb-focus-ring, var(--SmartThemeBodyColor, currentColor));
+    outline-offset: 2px;
+}
+
+@media (pointer: coarse), (max-width: 600px) {
+    .alt-fields-manager .menu_button,
+    .alt-fields-manager :is(button, input),
+    .alt_fields_button {
+        min-height: 44px;
+    }
+}
