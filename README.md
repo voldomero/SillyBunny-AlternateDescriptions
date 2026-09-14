@@ -2,7 +2,7 @@
 
 Keep multiple versions of a character's fields in one card and switch between them in SillyBunny.
 
-This is a fork of [Nbrown725's SillyTavern-AlternateDescriptions](https://github.com/nbrown725/SillyTavern-AlternateDescriptions), documented upstream as **SillyTavern Alternate Fields**. It keeps the original six fields, named alternates, token counts, and `/altfield` command, with chang@James to the editor and saving behavior for SillyBunny.
+This is a fork of [Nbrown725's SillyTavern-AlternateDescriptions](https://github.com/nbrown725/SillyTavern-AlternateDescriptions), documented upstream as **SillyTavern Alternate Fields**. It keeps the original six fields, named alternates, token counts, and `/altfield` command, with changes made to the editor and saving behavior for SillyBunny.
 
 Supported fields: **Description, Personality, Scenario, Example Dialogue, Main Prompt, and Post-History Instructions**.
 
